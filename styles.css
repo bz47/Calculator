@@ -50,3 +50,10 @@ body {
   border-radius: 1%;
   background-color: rgb(174, 166, 166);
 }
+
+@media only screen and (max-width: 600px) or (orientation: landscape) {
+  #calc {
+    width: 98%;
+    height: 98%;
+  }
+}
