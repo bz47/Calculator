@@ -58,4 +58,8 @@ body {
     width: 250px;
     height: 200px;
   }
+
+  .button {
+    height: 30px;
+  }
 }
