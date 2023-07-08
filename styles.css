@@ -55,6 +55,6 @@ body {
 @media only screen and (orientation: landscape) {
   #calc {
     width: 100vh;
-    height: 90vh;
+    height: 10vh;
   }
 }
