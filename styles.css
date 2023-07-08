@@ -22,6 +22,7 @@ body {
 
 .button {
   display: flex;
+
   justify-content: center;
   align-items: center;
   font-size: 2rem;
@@ -52,9 +53,9 @@ body {
   background-color: rgb(174, 166, 166);
 }
 
-@media only screen and (orientation: landscape) {
+@media only screen and (max-width: 660px) or (orientation: landscape) {
   #calc {
-    width: 130vh;
-    height: 10vh;
+    width: 100px;
+    height: 700px;
   }
 }
