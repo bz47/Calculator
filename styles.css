@@ -1,6 +1,7 @@
 body {
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: black;
 }
 
@@ -11,8 +12,8 @@ body {
   gap: 2px 4px;
   align-items: center;
   justify-content: center;
-  width: 700px;
-  height: 900px;
+  width: 800px;
+  height: 1200px;
   border: solid black 0.2rem;
   padding: 1% 1.2%;
   background-color: rgb(77, 77, 149);
@@ -51,9 +52,9 @@ body {
   background-color: rgb(174, 166, 166);
 }
 
-@media only screen and (max-width: 600px) or (orientation: landscape) {
+@media only screen and (max-width: 800px) or (orientation: landscape) {
   #calc {
-    width: 98%;
-    height: 98%;
+    width: 100vh;
+    height: 100vh;
   }
 }
