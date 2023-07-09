@@ -24,7 +24,8 @@ body {
   gap: 2px 4px;
   align-items: center;
   justify-content: center;
-  width: 700px;
+  width: 40%;
+  height: 90%;
   border: solid black 0.2rem;
   padding: 1% 1.2%;
   background-color: rgb(77, 77, 149);
