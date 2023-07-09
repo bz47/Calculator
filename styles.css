@@ -3,10 +3,10 @@
 }
 
 body {
+  background-color: black;
   display: flex;
   justify-content: center;
-  align-items: center;
-  background-color: black;
+  padding: 10%;
 }
 
 #calc {
@@ -17,7 +17,6 @@ body {
   align-items: center;
   justify-content: center;
   width: 40%;
-  height: 90%;
   border: solid black 0.2rem;
   padding: 1% 1.2%;
   background-color: rgb(77, 77, 149);
@@ -55,15 +54,4 @@ body {
   border-bottom: solid black 3px;
   border-radius: 1%;
   background-color: rgb(174, 166, 166);
-}
-
-@media only screen and (max-width: 480px) or (orientation: landscape) {
-  #calc {
-    width: 250px;
-    height: 200px;
-  }
-
-  .button {
-    height: 30px;
-  }
 }
