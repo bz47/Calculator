@@ -9,13 +9,6 @@ body {
   background-color: black;
 }
 
-.holder {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 95%;
-  border: solid white 2px;
-}
 #calc {
   display: grid;
   grid-template-rows: repeat(6, 1fr);
