@@ -55,3 +55,74 @@ body {
   border-radius: 1%;
   background-color: rgb(174, 166, 166);
 }
+
+@media only screen and (orientation: landscape) {
+  #calc {
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+  }
+
+  .display {
+    grid-area: 1/1/2/9;
+  }
+  #zero {
+    grid-area: 3/2/4/3;
+  }
+
+  #one {
+    grid-area: 3/3/4/4;
+  }
+
+  #two {
+    grid-area: 3/4/4/5;
+  }
+  #three {
+    grid-area: 3/5/4/6;
+  }
+  #four {
+    grid-area: 3/6/4/7;
+  }
+  #five {
+    grid-area: 2/2/3/3;
+  }
+  #six {
+    grid-area: 2/3/3/4;
+  }
+  #seven {
+    grid-area: 2/4/3/5;
+  }
+  #eight {
+    grid-area: 2/5/3/6;
+  }
+  #nine {
+    grid-area: 2/6/3/7;
+  }
+
+  #plus {
+    grid-area: 4/3/5/4;
+  }
+
+  #eq {
+    grid-area: 2/7/5/9;
+  }
+
+  #sub {
+    grid-area: 4/4/5/5;
+  }
+
+  #divide {
+    grid-area: 4/5/5/6;
+  }
+
+  #times {
+    grid-area: 4/6/5/7;
+  }
+
+  #dot {
+    grid-area: 4/2/5/3;
+  }
+
+  #clear {
+    grid-area: 2/1/5/2;
+  }
+}
