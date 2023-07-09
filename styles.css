@@ -58,7 +58,7 @@ body {
 
 @media only screen and (orientation: portrait) and (min-width: 400px) {
   #calc {
-    height: 95vh;
+    height: 85vh;
   }
 }
 
