@@ -57,13 +57,11 @@ body {
 }
 
 @media only screen and (orientation: landscape) {
-  body {
-    display: block;
-  }
   #calc {
     grid-template-rows: repeat(4, 1fr);
     grid-template-columns: repeat(8, 1fr);
-    height: 80%;
+    height: 50%;
+    width: 80%;
   }
 
   .display {
